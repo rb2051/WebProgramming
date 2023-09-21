@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<link href="css.css" type="text/css" rel="stylesheet">
+</head>
 	<body>
 		<h1> Body </h1>
+		<button type = "button" OnClick= button.style.height = "300px;"> Test Button </button>
 	</body>
 </html>

@@ -1,8 +1,7 @@
 <script>
 
-function changeColour()
-{
-	document.getElementByID("button").style.backgroundColor = "blue";
+function demo(){
+const button = document.getElementById("btn").innerHTML = "New text";
 }
 
 </script>

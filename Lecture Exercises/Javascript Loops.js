@@ -15,4 +15,16 @@ var car = { make: "Ford", model: "Focus", year: 2017 };
 for (var p in car) { // enumerable properties loop
     if ( isNaN(car[p]) ) car[p] = car[p].toUpperCase();
 }
+
+do {
+    var j = page.indexOf("=", j);
+    if ( j != -1 )
+        s += page.substring(j, j + 2);
+} while ( j != -1 && j < len );
+
+
+var count = 0;
+while ( (i = page.indexOf("href=", i)) != -1 ) {
+    count++;
+}
 </script>

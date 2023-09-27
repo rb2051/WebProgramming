@@ -1,5 +1,5 @@
 function demo(){
-const button = document.getElementById("btn").innerHTML = "New text";
+const button = document.getElementById("btn").innerHTML = "Button Changed";
 }
 
 function carousel() {

@@ -1,8 +1,14 @@
+marquee{
+		color:#8f228f;
+		font-size:100px;
+		}
+
 button{
 		color:#8f228f;
 		background-color:#ffc4ff;
 		border-color:#ffe0ff;
 		font-weight:bold;
+		font-size:50px;
 		border-radius:30px;
 		margin-right:50px;
 	}

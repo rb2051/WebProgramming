@@ -2,10 +2,22 @@
 <html>
 <head>
 	<link href="css.css" type="text/css" rel="stylesheet">
-	<script type="javascript" src="java.js"></script>
+	<script src="java.js"></script>
 </head>
+
 	<body>
-	
+<!-- automatic slide show of images -->
+	<div class="area1" style="max-width:100%">
+	  <img class="mySlides" src="Images/img1.jpeg" style="width:100%">
+	  <img class="mySlides" src="Images/img3.jpeg" style="width:100%">
+	  <img class="mySlides" src="Images/img2.jpeg" style="width:100%">
+	</div>
+
+	<script> 
+		var myIndex = 0;
+		carousel();
+	</script>
+<!-- button that changes text when clicked on -->
 	<button id="btn" onclick="demo()"> Change Button </button>
 		
 	</body>

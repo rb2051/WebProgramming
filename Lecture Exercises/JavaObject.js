@@ -1,3 +1,4 @@
+//both these examples add propertoes into an object
 <script>
 var person = new Object();
 person.firstName = "John";

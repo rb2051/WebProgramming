@@ -22,3 +22,19 @@ main{
 padding:0px;display:block;clear:both;
 background-color:#80948c;
 }
+
+.drag-container {
+    display: flex;
+  }
+
+  .drag-item {
+    width: 100px;
+    height: 100px;
+    background-color: #f7b841;
+    margin-right: 10px;
+    cursor: grab;
+  }
+
+  .drag-item:active {
+    cursor: grabbing;
+  }

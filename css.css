@@ -3,6 +3,41 @@ marquee{
 		font-size:100px;
 		}
 
+/* Navigational bar Properties */
+nav{
+height:120px;
+background-color:#ffc4ff;
+}
+nav ul {
+list-style-type: none;
+margin: 0;
+}
+nav li {
+float: left;
+padding:15px
+}
+nav li a {
+display: block;
+color: #8f228f;
+text-align: center;
+padding: 0px 0px;
+text-decoration: none;
+margin:30px;
+font-size: 25px;
+}
+nav li a:hover {
+background-color: dimgrey;
+}
+#Logo{
+margin:0px;
+width:120px;
+height: 80px;
+float: left;
+display: block;
+clear:both;
+}
+
+
 button{
 		color:#8f228f;
 		background-color:#ffc4ff;
@@ -74,3 +109,4 @@ background-color:#80948c;
     
   }
 }
+

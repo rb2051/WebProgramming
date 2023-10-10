@@ -26,7 +26,11 @@ margin:30px;
 font-size: 25px;
 }
 nav li a:hover {
-background-color: dimgrey;
+width:140px;
+height: 30px;
+border-radius:30px;
+background-color: mediumpurple;
+color:#ffc4ff;
 }
 #Logo{
 margin:0px;
@@ -36,7 +40,6 @@ float: left;
 display: block;
 clear:both;
 }
-
 
 button{
 		color:#8f228f;
@@ -65,9 +68,10 @@ background-color:#80948c;
   .drag-item {
     width: 100px;
     height: 100px;
-    background-color: #f7b841;
+    background-color: #ffc4ff;
     margin-right: 10px;
     cursor: grab;
+    color: #8f228f;
   }
 
   .drag-item:active {

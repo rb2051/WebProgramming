@@ -31,11 +31,12 @@
 	</script>
 
 <!-- drag and drop -->
-	<div class="drag-container">
-  		<div class="drag-item" draggable="true">Item 1</div>
-  		<div class="drag-item" draggable="true">Item 2</div>
-  		<div class="drag-item" draggable="true">Item 3</div>
+	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  		<img src="Images/img1.jpeg" draggable="true" ondragstart="drag(event)" 
+  		id="drag1" width="88" height="31">
 	</div>
+
+	<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
 <!-- button that changes text when clicked on -->
 	<button id="btn" onclick="demo()"> Change Button </button>

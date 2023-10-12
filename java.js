@@ -17,15 +17,22 @@ function carousel() {
 }
 
 // JavaScript code to handle drag-and-drop functionality
-  var dragItems = document.querySelectorAll('.drag-item');
+function allowDrop(ev) {
+  ev.preventDefault();
+}
 
-  dragItems.forEach(function(item) {
-    item.addEventListener('dragstart', function(event) {
-      event.dataTransfer.setData('text/plain', event.target.id);
-    });
-  });
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
 
 
+//cookie popup
   $(document).on("ready", function () {
   if (document.cookie.indexOf("accepted_cookies=") < 0) {
     $(".cookie-overlay").removeClass("d-none").addClass("d-block");

@@ -1,6 +1,6 @@
 //changing text on a button with a click
 function demo(){
-const button = document.getElementById("btn").innerHTML = "Button Changed";
+const button = document.getElementById("change").innerHTML = "Button Changed";
 }
 
 //switching automatically between photos

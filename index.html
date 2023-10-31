@@ -42,13 +42,14 @@
 	<button id="change" onclick="demo()"> Change Button </button>
 		
 <!-- background colour -->
-	<label for="cars">Choose a car:</label>
+	<label for="Colours">Choose a colour:</label>
 
-	<select>
-  		<option value="volvo">Volvo</option>
-  		<option value="saab">Saab</option>
-  		<option value="mercedes">Mercedes</option>
-  		<option value="audi">Audi</option>
+	<select name="colour" onchange="document.bgColor=this.options[this.selectedIndex].value" size="1">
+		<option value="none">None</option>
+  		<option value="#FF5151">Red</option>
+  		<option value="#FF8FF0">Pink</option>
+  		<option value="purple">Purple</option>
+  		<option value="#F8FF6F">Yellow</option>
 	</select>
 
 <!-- popup -->

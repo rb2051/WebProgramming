@@ -99,7 +99,7 @@ main{
 #cookiePopup {
 	visibility: visible;
 	background-color: white;
-	position: absolute;
+	position: fixed;
 	font-size: 14px;
 	width: 70vw;
 	max-width: 42.85em;

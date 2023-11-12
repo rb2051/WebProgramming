@@ -63,19 +63,25 @@
 	</div>
 
 <!--colour picker--> 
-Choose a color to color the below text 
-<input id="color_picker" type="color" onchange="showHex();"> 
-	<span id="color_hex_value"></span> 
-		<h1>COLOR ME !</h1>
+<select name="clr" onchange="document.fgColor=this.options[this.selectedIndex].value" size="1">
+    <br>
+    <option value="black">black
+        <option value="orange">orange
+            <option value="flamingred">fuschia
+                <option value="lightyellow">light yellow
+                    <option value="cyan">cyan
+                        <option value="yellow">yellow
+                            <option value="red">red
+                                <option value="white">white</option>
+</select>&nbsp;&nbsp;Text Color
 
-
-<?xml version="1.0" encoding="utf-8"?>
+<!-- <?xml version="1.0" encoding="utf-8"?>
 	<rss version="2.0">
 	<channel>
 		<title>Title of your Feed</title>
 		<link>http://www.yourwebsite.com/</link>
 		<description>This is the description of your Feed. Keep it to one or two sentences</description>
-	</channel>
+	</channel> -->
 	</body>
 </html>
 

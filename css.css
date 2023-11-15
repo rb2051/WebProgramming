@@ -139,7 +139,9 @@ main{
 }
 
 footer{
-	background-color: mediumpurple;
+	background-color:#ffc4ff;
+	text-decoration: none;
+	text-align: left;
+	font-size: 34px;
 }
- 
 
